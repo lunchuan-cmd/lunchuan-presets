@@ -21,6 +21,11 @@
   .btn { display: inline-block; background: #222; color: #fff; text-decoration: none; padding: 14px 36px; border-radius: 8px; font-size: 16px; font-weight: 600; transition: all .2s; }
   .btn:hover { background: #000; transform: translateY(-1px); }
   .note { text-align: center; color: #999; font-size: 13px; margin-top: 14px; }
+  .paybox { display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; align-items: flex-start; margin-top: 24px; }
+  .paycard { background: #fff; border-radius: 12px; padding: 20px; box-shadow: 0 1px 6px rgba(0,0,0,0.06); text-align: center; max-width: 260px; }
+  .paycard img { width: 200px; height: auto; border-radius: 8px; }
+  .paycard .pt { font-weight: 600; margin-top: 12px; font-size: 15px; }
+  .paycard .ps { color: #888; font-size: 12px; margin-top: 4px; word-break: break-all; }
   footer { text-align: center; padding: 24px; color: #bbb; font-size: 12px; }
 </style>
 </head>
@@ -53,6 +58,17 @@
   <div class="download">
     <a class="btn" href="https://github.com/lunchuan-cmd/lunchuan-presets/releases/tag/v1.0.0">⬇ 下载预设包 v1.0</a>
     <div class="note">4 套预设 + 演示图 + 安装教程 · 下载 zip 解压即用</div>
+    <div class="paybox">
+      <div class="paycard">
+        <img src="assets/alipay_qr_small.jpg" alt="支付宝收款码">
+        <div class="pt">☕ 支付宝打赏</div>
+        <div class="ps">(**川)可乐摄影工作室 · 扫码支持原创</div>
+      </div>
+      <div class="paycard">
+        <div class="pt" style="margin-top:60px">🌐 ETH</div>
+        <div class="ps" style="font-family:monospace;font-size:11px">0xeD390285036feF9A8de5caC76C624a94bccC177D</div>
+      </div>
+    </div>
   </div>
 </div>
 
